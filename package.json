@@ -1,0 +1,19 @@
+{
+  "name": "express_notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "node --watch--env-file=.envserver"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
